@@ -45,6 +45,14 @@ Do u¿ytku tylko na w³asne ryzyko.
 %prep
 %setup -q
 
+mv -f po/{es_ES,es}.po
+mv -f po/{ko_KR,ko}.po
+cat > po/LINGUAS <<EOF
+es
+ko
+nl
+EOF
+
 %build
 %{__glib_gettextize}
 %{__intltoolize} --automake
