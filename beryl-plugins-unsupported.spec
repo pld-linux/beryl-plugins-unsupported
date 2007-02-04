@@ -1,5 +1,5 @@
-Summary:	beryl plugins
-Summary(pl):	Wtyczki do beryla
+Summary:	beryl extra plugins
+Summary(pl):	Dodatkowe wtyczki do beryla
 Name:		beryl-plugins-unsupported
 Version:	0.1.9999.1
 Release:	1
