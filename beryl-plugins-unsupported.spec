@@ -1,5 +1,5 @@
 Summary:	beryl extra plugins
-Summary(pl):	Dodatkowe wtyczki do beryla
+Summary(pl.UTF-8):   Dodatkowe wtyczki do beryla
 Name:		beryl-plugins-unsupported
 Version:	0.1.9999.1
 Release:	1
@@ -32,15 +32,15 @@ This package contains plugins that are either:
 
 Use at your own risk.
 
-%description -l pl
+%description -l pl.UTF-8
 Dodatkowe wtyczki do beryla.
 
-Ten pakiet zawiera wtyczki które:
-- s± niestabilne,
-- nie maj± zapewnionej dostatecznej opieki,
-- lub którymi nikt siê nie zajmuje.
+Ten pakiet zawiera wtyczki ktÃ³re:
+- sÄ… niestabilne,
+- nie majÄ… zapewnionej dostatecznej opieki,
+- lub ktÃ³rymi nikt siÄ™ nie zajmuje.
 
-Do u¿ytku tylko na w³asne ryzyko.
+Do uÅ¼ytku tylko na wÅ‚asne ryzyko.
 
 %prep
 %setup -q
