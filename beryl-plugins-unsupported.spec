@@ -1,12 +1,12 @@
 Summary:	beryl extra plugins
 Summary(pl.UTF-8):	Dodatkowe wtyczki do beryla
 Name:		beryl-plugins-unsupported
-Version:	0.2.0
+Version:	0.2.1
 Release:	1
 License:	GPL
 Group:		X11
 Source0:	http://releases.beryl-project.org/%{version}/%{name}-%{version}.tar.bz2
-# Source0-md5:	6408855962c86d79d165e5d14b3ae0d2
+# Source0-md5:	262a5900b42c52671c2a0f9a69ac93b4
 URL:		http://beryl-project.org/
 BuildRequires:	OpenGL-devel
 BuildRequires:	autoconf >= 2.57
