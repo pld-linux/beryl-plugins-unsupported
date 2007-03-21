@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Dodatkowe wtyczki do beryla
 Name:		beryl-plugins-unsupported
 Version:	0.2.1
 Release:	1
-License:	GPL
+License:	GPL v2+
 Group:		X11
 Source0:	http://releases.beryl-project.org/%{version}/%{name}-%{version}.tar.bz2
 # Source0-md5:	262a5900b42c52671c2a0f9a69ac93b4
@@ -44,14 +44,6 @@ Do użytku tylko na własne ryzyko.
 
 %prep
 %setup -q
-
-#mv -f po/{es_ES,es}.po
-#mv -f po/{ko_KR,ko}.po
-#cat > po/LINGUAS <<EOF
-#es
-#ko
-#nl
-#EOF
 
 %build
 %{__glib_gettextize}
